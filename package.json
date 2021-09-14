@@ -2,6 +2,7 @@
   "name": "satisfy-ui",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://1847016090.github.io/satisfy-ui",
   "main": "index.js",
   "scripts": {
     "dev": "docz dev",
