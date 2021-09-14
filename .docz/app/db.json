@@ -1,0 +1,170 @@
+{
+  "config": {
+    "title": "satisfy-ui",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "version": "1.0.0",
+    "repository": null,
+    "native": false,
+    "themeConfig": {},
+    "separator": "-",
+    "files": "./components/**/*.{md,markdown,mdx}",
+    "dest": "doc-site",
+    "typescript": true
+  },
+  "entries": [
+    {
+      "key": "components/alert/index.mdx",
+      "value": {
+        "name": "Alert 警告提示",
+        "route": "/Alert",
+        "menu": "组件",
+        "id": "ceae3abcc96c825f7b04c098ac7ba5d9",
+        "filepath": "components/alert/index.mdx",
+        "fullpath": "/Users/yekang/Desktop/project/satisfy-ui/components/alert/index.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "components-alert-index",
+        "headings": [
+          {
+            "slug": "alert-警告提示",
+            "depth": 1,
+            "value": "Alert 警告提示"
+          },
+          {
+            "slug": "代码演示",
+            "depth": 2,
+            "value": "代码演示"
+          },
+          {
+            "slug": "基本用法",
+            "depth": 3,
+            "value": "基本用法"
+          },
+          {
+            "slug": "api",
+            "depth": 2,
+            "value": "API"
+          },
+          {
+            "slug": "执行脚本命令",
+            "depth": 2,
+            "value": "执行脚本命令："
+          }
+        ]
+      }
+    }
+  ],
+  "props": [
+    {
+      "key": "components/index.ts",
+      "value": [
+        {
+          "tags": {},
+          "description": "",
+          "displayName": "Alert",
+          "methods": [],
+          "props": {
+            "type": {
+              "defaultValue": {
+                "value": "info"
+              },
+              "description": "Set this to change alert type",
+              "name": "type",
+              "parent": {
+                "fileName": "/Users/yekang/Desktop/project/satisfy-ui/components/alert/Type.ts",
+                "name": "AlertProps"
+              },
+              "declarations": [
+                {
+                  "fileName": "/Users/yekang/Desktop/project/satisfy-ui/components/alert/Type.ts",
+                  "name": "AlertProps"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "\"info\" | \"positive\" | \"negative\" | \"warning\" | undefined"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "components/alert/Alert.tsx",
+      "value": [
+        {
+          "tags": {},
+          "description": "",
+          "displayName": "alert",
+          "methods": [],
+          "props": {
+            "type": {
+              "defaultValue": {
+                "value": "info"
+              },
+              "description": "Set this to change alert type",
+              "name": "type",
+              "parent": {
+                "fileName": "/Users/yekang/Desktop/project/satisfy-ui/components/alert/Type.ts",
+                "name": "AlertProps"
+              },
+              "declarations": [
+                {
+                  "fileName": "/Users/yekang/Desktop/project/satisfy-ui/components/alert/Type.ts",
+                  "name": "AlertProps"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "\"info\" | \"positive\" | \"negative\" | \"warning\" | undefined"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "components/alert/Type.ts",
+      "value": []
+    },
+    {
+      "key": "components/alert/index.ts",
+      "value": [
+        {
+          "tags": {},
+          "description": "",
+          "displayName": "alert",
+          "methods": [],
+          "props": {
+            "type": {
+              "defaultValue": {
+                "value": "info"
+              },
+              "description": "Set this to change alert type",
+              "name": "type",
+              "parent": {
+                "fileName": "/Users/yekang/Desktop/project/satisfy-ui/components/alert/Type.ts",
+                "name": "AlertProps"
+              },
+              "declarations": [
+                {
+                  "fileName": "/Users/yekang/Desktop/project/satisfy-ui/components/alert/Type.ts",
+                  "name": "AlertProps"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "\"info\" | \"positive\" | \"negative\" | \"warning\" | undefined"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "components/alert/style/index.ts",
+      "value": []
+    }
+  ]
+}
