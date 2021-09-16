@@ -1,6 +1,6 @@
 import React from "react";
 import t from "prop-types";
-
+import './style';
 import { AlertProps, TypesMap } from "./Type";
 
 const prefixCls = "satisfy-alert";
