@@ -124,6 +124,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.7.7",
+    "cos-nodejs-sdk-v5": "^2.10.6",
     "prop-types": "^15.7.2"
   },
   "resolutions": {
