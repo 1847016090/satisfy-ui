@@ -3,9 +3,10 @@ title: Visible 控制组件显隐
 nav:
   title: 组件
   order: 2
+  path: /components
 group:
   title: 反馈
-  order: 3
+  order: 1
 ---
 
 # Visible 控制显隐

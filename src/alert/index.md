@@ -3,6 +3,7 @@ title: Alert 警告提示
 nav:
   title: 组件
   order: 2
+  path: /components
 group:
   title: 反馈
   order: 1
