@@ -1,5 +1,5 @@
 ---
-title: Alert 警告提示
+title: Animation 动效
 nav:
   title: 组件
   order: 2
@@ -10,9 +10,9 @@ group:
   order: 1
 ---
 
-# Alert 警告提示
+# Animation 动画效果
 
-警告提示，展现需要关注的信息。
+动画效果
 
 ## 代码演示
 

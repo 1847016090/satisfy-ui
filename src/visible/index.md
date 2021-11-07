@@ -5,13 +5,14 @@ nav:
   order: 2
   path: /components
 group:
-  title: 反馈
+  path: /components/basic
+  title: 基础
   order: 1
 ---
 
 # Visible 控制显隐
 
-警告提示，展现需要关注的信息。
+控制显隐。
 
 ## 代码演示
 

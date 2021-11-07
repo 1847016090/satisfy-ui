@@ -93,5 +93,12 @@ module.exports = {
 };
 ```
 
-## 编写文档
-新建components/alert/index.mdx，并写入以下内容：
+## 标准化发布流程
+本节主要是讲解如何通过一行命令完成以下六点内容：
+
+- 版本更新
+- 生成 CHANGELOG
+- 推送至 git 仓库
+- 组件库打包
+- 发布至 npm
+- 打 tag 并推送至 git
