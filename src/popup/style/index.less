@@ -1,0 +1,116 @@
+.satisfy-popup {
+  &-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.65);
+    &.hide {
+      display: none;
+    }
+  }
+  &-body {
+    position: absolute;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #fff;
+    &-position-bottom {
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      min-height: 200px;
+      border-radius: 20px 20px 0 0;
+    }
+    &-position-top {
+      top: 0;
+      left: 0;
+      width: 100%;
+      min-height: 200px;
+      border-radius: 0 0 20px 20px;
+    }
+  }
+}
+
+.fade-bottom-in {
+  -webkit-animation: fadeBottomIn 0.3s;
+  animation: fadeBottomIn 0.3s;
+}
+
+.fade-top-in {
+  -webkit-animation: fadeTopIn 0.4s;
+  animation: fadeTopIn 0.4s;
+}
+
+/** 弹层动画从上往下 */
+@keyframes fadeTopIn {
+  0% {
+    -webkit-transform: translate3d(0, -20%, 0);
+    transform: translate3d(0, -20%, 0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeTopIn {
+  0% {
+    -webkit-transform: translate3d(0, -20%, 0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: none;
+    opacity: 1;
+  }
+}
+
+/** 弹层动画 从下往上 */
+@keyframes fadeBottomIn {
+  0% {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes fadeBottomIn {
+  0% {
+    -webkit-transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    -webkit-transform: none;
+  }
+}
+
+/* 弹层动画（从右往左） */
+.fadeleftIn {
+  -webkit-animation: fadeleftIn 0.4s;
+  animation: fadeleftIn 0.4s;
+}
+
+@keyframes fadeleftIn {
+  0% {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes fadeleftIn {
+  0% {
+    -webkit-transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    -webkit-transform: none;
+  }
+}

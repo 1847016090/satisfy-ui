@@ -1,5 +1,5 @@
 ---
-title: Animation 动画效果
+title: Popup弹出层
 nav:
   title: 组件
   order: 2
@@ -10,9 +10,9 @@ group:
   order: 1
 ---
 
-# Animation 动画效果
+# Popup弹出层
 
-动画效果
+弹出层
 
 ## 代码演示
 
